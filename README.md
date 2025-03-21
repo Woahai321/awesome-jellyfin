@@ -5,7 +5,6 @@
   <h1 align="center">Awesome Jellyfin</h1>
 </p>
 
-
 <blockquote align="center"> A List of Awesome Jellyfin Themes and Plugins</blockquote>
 
 <p align="center">
@@ -20,10 +19,8 @@
 ]
 </p>
 
-
 ## 🧩 Plugins
 
-<!-- sort list:plugins -->
 - [InPlayerEpisodePreview](https://github.com/Namo2/InPlayerEpisodePreview) - Adds an episode list to the video player.
 - [intro-skipper](https://github.com/intro-skipper/intro-skipper) - Fingerprint audio to automatically detect intro and outro segments in Jellyfin.
 - [jellyfin-ani-sync](https://github.com/vosmiic/jellyfin-ani-sync) - Automatically tracks and synchronizes anime watching progress between Jellyfin and [Anilist](https://anilist.co/) and other services.
@@ -53,18 +50,15 @@
     -  **NOTE:** Jellyfin 10.9 now natively supports trickplay.
 - [media-upload-plugin](https://github.com/grandguyjs/media-upload-plugin) - Allows remote media uploads to a designated directory without direct server access.
 
-
 #### 🏷️ Metadata Providers
 
-<!-- sort list:metadata-providers -->
 - [jellyfin-plugin-hikka](https://github.com/HotMasya/jellyfin-plugin-hikka) - Metadata and images for anime and manga from the Hikka website.
 - [jellyfin-plugin-kinopoisk](https://github.com/LinFor/jellyfin-plugin-kinopoisk) - Metadata provider for [Kinopoisk](https://www.kinopoisk.ru/).
 - [jellyfin-plugin-myanimelist](https://github.com/ryandash/jellyfin-plugin-myanimelist) - Provides MyAnimeList metadata for anime.
 - [Jellyfin Plugin PhoenixAdult](https://github.com/DirtyRacer1337/Jellyfin.Plugin.PhoenixAdult) - Metadata provider helps fill Jellyfin/Emby with information for your adult videos by pulling from the original site.
-- [Jellyfin Plugin Stash](https://github.com/DirtyRacer1337/Jellyfin.Plugin.Stash) - Metadata provider for Metadata provider for [Stash](https://github.com/stashapp/stash).
+- [Jellyfin Plugin Stash](https://github.com/DirtyRacer1337/Jellyfin.Plugin.Stash) - Metadata provider for [Stash](https://github.com/stashapp/stash).
 - [Jellyfin Plugin ThePornDB](https://github.com/ThePornDatabase/Jellyfin.Plugin.ThePornDB) - Metadata provider for ThePornDB.
 - [jellyfin-youtube-metadata-plugin `📅`](https://github.com/ankenyr/jellyfin-youtube-metadata-plugin) - YouTube Metadata Plugin.
-
 
 ## 🖌️ Themes
 
@@ -76,7 +70,6 @@
 
 ## 👾 Other
 
-<!-- sort list:other -->
 - [AudioBookRequest](https://github.com/markbeep/AudioBookRequest) - A request management tool for audiobooks on Plex, Jellyfin, and Audiobookshelf.
 - [autopulse](https://github.com/dan-online/autopulse) - A lightweight automation service that updates Plex, Jellyfin, and Emby libraries based on notifications from media organizers like Sonarr and Radarr.
 - [autoscan `📅`](https://github.com/Cloudbox/autoscan) - Replaces the default Plex and Emby behaviour for picking up changes on the file system.
@@ -110,6 +103,7 @@
 - [Playlifin](https://gitlab.com/Krafting/playlifin-gtk) - Converts YouTube Music playlists to Jellyfin playlists.
 - [Posterizarr](https://github.com/fscorrupt/Posterizarr) - Automates the creation of high-quality posters, backgrounds, and title cards for Plex, Jellyfin, and Emby with customizable overlays and direct uploads.
 - [reiverr ` 🔸 `](https://github.com/aleksilassila/reiverr) - Combined interface for JF, TMDB, Radarr and Sonarr.
+- [SeerrBridge ` 🔸 `](https://github.com/WoahAI321/SeerrBridge) - Automates media fetching by integrating Jellyseer/Overseerr with Debrid Media Manager for torrent search and download.
 - [speedrr](https://github.com/itschasa/speedrr) - Change your torrent client's upload speed dynamically, on certain events such as when a Plex/Jellyfin stream starts.
 - [streamystats](https://github.com/fredrikburmester/streamystats) - Statistics service for Jellyfin, providing analytics and data visualization.
 - [subgen](https://github.com/McCloudS/subgen) - Autogenerate subtitles using OpenAI Whisper Model via Jellyfin.
@@ -121,18 +115,14 @@
 - [ytdlp2STRM](https://github.com/fe80Grau/ytdlp2STRM) - Streams YouTube, Twitch and more via yt-dlp to Jellyfin.
 - [ytdl-sub](https://github.com/jmbannon/ytdl-sub) - Automate downloading and metadata generation with YoutubeDL.
 
-
 #### 📜 Snippets
 
-<!--lint ignore awesome-list-item-->
 - [snippets/language-overlay](snippets/language-overlay) - A script to add flags to movie posters.
-
 
 ## 🌌 Related
 
 This section includes software, guides and tools that are not *specifically* designed to work with Jellyfin, but can be useful for tasks related to media management or to enhance Jellyfin's functionality.
 
-<!-- sort list:related -->
 - [calibre2jellyfin](https://github.com/shawn61cp/calibre2jellyfin) - Python script to construct a Jellyfin ebook library from a Calibre library.
 - [Cloud Seeder](https://github.com/ipv6rslimited/cloudseeder) - A 1-click installer and maintainer for Jellyfin on Windows, Mac and Linux.
 - [ErsatzTV ` 🔸 `](https://github.com/ErsatzTV/ErsatzTV) - Stream custom live channels using your own media.
@@ -150,11 +140,24 @@ This section includes software, guides and tools that are not *specifically* des
 - [TRaSH Guides](https://trash-guides.info/) - Easy-to-understand guides for Sonarr, Radarr, and Bazarr, along with related tools.
 - [watchstate](https://github.com/ArabCoders/watchstate) - Sync play state between different media servers.
 
-
 ## Contribute
 
 Contributions welcome! But please read the [contribution guidelines](CONTRIBUTING.md) first.  
 You can also [create a new issue](https://github.com/awesome-jellyfin/awesome-jellyfin/issues/new).
+
+Contribution Guidelines
+Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
+
+Ensure your pull request adheres to the following guidelines:
+
+Use the Conventional Commits specification (<type>[optional scope]: <description>)
+List items should be sorted alphabetically
+Search previous suggestions before making a new one, as yours may be a duplicate
+New categories, or improvements to the existing categorization are welcome
+Keep descriptions short and simple, but descriptive and non-promotional
+Thank you for your suggestions!
+
+Updating your PR
 
 ---
 
